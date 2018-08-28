@@ -34,7 +34,7 @@ export class HackerList extends Component {
   }
 }
 
-const mapState = ({ async, stories }) => ({ stories })
+const mapState = ({ stories }) => ({ stories })
 const mapDispatch = { loadStories }
 
 export default compose(
